@@ -1,10 +1,13 @@
 // declare your functions here...
 function paragraphSelector() {
-  $("p");
+  return $("p");
 }
 function lastImageSelector(){
-  $('img:last');
+  return $('img:last');
+}
+function ninjaBabySelector(){
+  return $('#baby-ninja');
 }
 function firstListItem(){
-  $('pic-list ul:first-child');
+  return $('ul#pic-list li:first-child');
 }
